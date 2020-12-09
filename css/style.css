@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none!important;
+    list-style-type: none;
+}
+.burger{
+    font-size: 30px;
+}
+#dropD{
+    position: absolute;
+}
+.txtCol{
+    color: black;
+}
+#glavniNav ul li a:hover{
+    background-color: orange;
+}
+#glavniNav ul li a{
+    display: inline-block;
+}
+.newNavigation{
+    position: absolute;
+    top: 50%;
+    left: 19%;
+    z-index: 9999;
+}
+.owl-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+.owl-nav{
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navigacija{
+    z-index: 5000000!important;
+}
