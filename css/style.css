@@ -14,7 +14,7 @@
     color: black;
 }
 .txtCol2{
-    color:#ff5126;
+    color:#FF8B2B;
 }
 #glavniNav ul li a:hover{
     background-color: #FF8B2B;
@@ -95,6 +95,16 @@
     color: #fff;
     border-color: #FF8B2B;
     background-color: #FF8B2B;
+}
+.btn-outline-danger:active{
+    color:#fff;
+    background-color:#FF8B2B;
+    border-color:#FF8B2B;
+}
+.btn-check:active+.btn-outline-danger,.btn-check:checked+.btn-outline-danger,.btn-outline-danger.active,.btn-outline-danger.dropdown-toggle.show,.btn-outline-danger:active{
+    color:#fff;
+    background-color:#FF8B2B;
+    border-color:#FF8B2B;
 }
 @media only screen and (max-width: 1900px){
     .counter{
