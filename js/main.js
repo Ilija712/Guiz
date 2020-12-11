@@ -1,4 +1,3 @@
-console.log("test");
 var resolution = $(window).width();
 if (resolution > 767) {
 
