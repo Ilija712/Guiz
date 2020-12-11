@@ -17,46 +17,45 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container pe-sm-0">
         <nav class="navbar navbar-expand-md navbar-light">
-            <div class="container-fluid">
-                <a href="index.html"><img class="navbar-brand" src="img/logo.png" alt="logo" /></a>
+            <div class="container-fluid pe-sm-0">
+                <a href="index.html"><img class="navbar-brand img-fluid logo" src="img/lastlogo.png" alt="logo" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#glavniNav"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="glavniNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav glavnaNavi">
                         <li class="nav-item">
-                            <a class="nav-link mx-4 text-reset" href="index.html">Home</a>
+                            <a class="nav-link mx-md-2 mx-lg-4 text-reset p-1 m-1 fs-4" href="index.html">Home</a>
                         </li>
                         <li class="nav-item dropD">
-                            <a class="nav-link mx-4 text-reset">Quizzes</a>
+                            <a class="nav-link mx-md-2 mx-lg-4 text-reset p-1 m-1 fs-4 guiz">Quizzes &#8744;</a>
                             <ul id="dropD" class="navigacija">
-                                <li><a class="txtCol p-1" href="#">Minecraft</a></li>
-                                <li><a class="txtCol p-1" href="#">League of Legends</a></li>
-                                <li><a class="txtCol p-1" href="#">Genshin Impact</a></li>
+                                <li><a class="txtCol p-1 m-1 bgCol fs-4" href="minecraft.html">Minecraft</a></li>
+                                <li><a class="txtCol p-1 m-1 bgCol fs-4" href="league.html">League of Legends</a></li>
+                                <li><a class="txtCol p-1 m-1 bgCol fs-4" href="genshin.html">Genshin Impact</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-4 text-reset" href="index.html">Author</a>
+                            <a class="nav-link mx-md-2 mx-lg-4 text-reset p-1 m-1 fs-4" href="index.html">Author</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-4 text-reset" href="index.html">Contact</a>
+                            <a class="nav-link mx-md-2 mx-lg-4 text-reset p-1 m-1 fs-4" href="index.html">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
-
-    <div class="container">
+    <div class="container px-5 d-none d-sm-block">
         <div class="owl-carousel owl-theme owl-loaded">
             <div class="owl-stage-outer">
                 <div class="owl-stage">
-                    <div class="owl-item"><img src="img/slider_1.jpg"></div>
-                    <div class="owl-item"><img src="img/slider_2.jpg"></div>
-                    <div class="owl-item"><img src="img/slider_3.jpg"></div>
+                    <div class="owl-item"><a href="minecraft.html"><img src="img/minecraft.jpg"></a></div>
+                    <div class="owl-item"><a href="league.html"><img src="img/league.jpg"></a></div>
+                    <div class="owl-item"><a href="genshin.html"><img src="img/genshin2.png"></a></div>
                 </div>
             </div>
             <div class="owl-nav">
@@ -64,6 +63,59 @@
             </div>
             <div class="owl-dots">
                 
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="text-center">Want to test your gaming knowledge?</h1>
+        <h2 class="h4 text-center pb-5">Try one of our gaming quizzes right now!</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4 px-5 pb-3">
+                <p class="h5 text-center">Minecraft quiz</p>
+                <a href="minecraft.html"><img src="img/icon-m.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="col-12 col-md-4 px-5 pb-3">
+                <p class="h5 text-center">League of legends quiz</p>
+                <a href="league.html"><img src="img/league-icon2.png" alt="" class="img-fluid d-block d-lg-none"></a>
+                <a href="league.html"><img src="img/league-icon.png" alt="" class="img-fluid d-none d-lg-block"></a>
+            </div>
+            <div class="col-12 col-md-4 px-5 pb-3">
+                <p class="h5 text-center">Genshin impact quiz</p>
+                <a href="genshin.html"><img src="img/gensh-icon.png" alt="" class="img-fluid"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-md-5 border-bottom">
+        <div class="row">
+            <div class="col-12 col-sm-5 col-md-6 col-xl-7">
+                <h5>About us</h5>
+                <p class="lead">We are a group of people who love playing games and making quizzes about them.</p>
+            </div>
+            <div class="col-12 col-sm-3 col-md-3 col-xl-3">
+                <h5>Quick links</h5>
+                <ul class="ps-0">
+                    <li><a href="index.html" class="txtCol2">Home</a></li>
+                    <li><a href="author.html" class="txtCol2">Author</a></li>
+                    <li><a href="contact.html" class="txtCol2">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 col-xl-2">
+                <h5>Follow us</h5>
+                <i class="fab fa-facebook fs-1 txtCol2 p-2 p-sm-1"></i>
+                <i class="fab fa-youtube fs-1 txtCol2 p-2 p-sm-1"></i>
+                <i class="fab fa-twitter fs-1 txtCol2 p-2 p-sm-1"></i>
+            </div>
+        </div>
+    </div>
+    <div class="container pt-sm-3">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <p class="lead fs-6">&copy;2020 Guiz Quizzes. All rights reserved.</p>
+            </div>
+            <div class="col-12 col-md-6">
+                <p class="lead fs-6 float-md-end">Designed by Guiz Team.</p>
             </div>
         </div>
     </div>

@@ -13,8 +13,11 @@
 .txtCol{
     color: black;
 }
+.txtCol2{
+    color:#ff5126;
+}
 #glavniNav ul li a:hover{
-    background-color: orange;
+    background-color: #FF8B2B;
 }
 #glavniNav ul li a{
     display: inline-block;
@@ -32,11 +35,61 @@
 }
 .owl-nav{
     position: absolute;
-    top: 44%;
+    top: 45%;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 .navigacija{
     z-index: 5000000!important;
+    padding-left: 20px;
 }
+.bgCol{
+    background-color: #FF8B2B;
+}
+.owl-prev{
+    outline: none!important;
+    background: rgba(211, 211, 211, 0.3)!important;
+}
+.owl-next{
+    outline: none!important;
+    background: rgba(211, 211, 211, 0.3)!important;
+
+}
+.guiz{
+    cursor: pointer;
+}
+.carouselWidth{
+    width:80%;
+}
+
+@media only screen and (max-width: 992px) {
+    .navigacija{
+        padding-left: 5px;
+    }
+    .owl-nav{
+        top: 37%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .glavnaNavi li a{
+        background-color: #FF8B2B;
+    }
+    .navigacija{
+        padding-left: 40px;
+    }
+    .owl-nav{
+        top: 33%;
+    }
+}
+@media only screen and (max-width: 576px){
+    .logo{
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .owl-nav{
+        top: 25%;
+    }
+}
+
