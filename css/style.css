@@ -21,6 +21,7 @@
 }
 #glavniNav ul li a{
     display: inline-block;
+    border-radius: 0.5rem;
 }
 .newNavigation{
     position: absolute;
@@ -62,7 +63,59 @@
 .carouselWidth{
     width:80%;
 }
-
+.counter{
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    background: rgba(255,139,43);
+    border-radius: 10%;
+    top: 180px;
+    right: 100px;
+}
+#quizNotif{
+    display: none;
+}
+#nameNotif{
+    display: none;
+}
+#surnameNotif{
+    display: none;
+}
+#emailNotif{
+    display: none;
+}
+#txtNotif{
+    display: none;
+}
+.btn-outline-danger{
+    color: #FF8B2B;
+    border-color: #FF8B2B;
+}
+.btn-outline-danger:hover{
+    color: #fff;
+    border-color: #FF8B2B;
+    background-color: #FF8B2B;
+}
+@media only screen and (max-width: 1900px){
+    .counter{
+        right: 200px;
+    }
+}
+@media only screen and (max-width: 1715px){
+    .counter{
+        right: 130px;
+    }
+}
+@media only screen and (max-width: 1600px){
+    .counter{
+        right: 60px;
+    }
+}
+@media only screen and (max-width: 1270px){
+    .counter{
+        right: 10px;
+    }
+}
 @media only screen and (max-width: 992px) {
     .navigacija{
         padding-left: 5px;
@@ -81,15 +134,24 @@
     .owl-nav{
         top: 33%;
     }
+    .counter{
+        right: 5px;
+    }
 }
 @media only screen and (max-width: 576px){
     .logo{
         width: 100px;
     }
+    .counter{
+        background: rgba(255,139,43, 0.5);
+        top: 150px;
+    }
+    
 }
 @media only screen and (max-width: 400px){
     .owl-nav{
         top: 25%;
     }
+    
 }
 
